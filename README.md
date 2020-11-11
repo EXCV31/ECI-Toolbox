@@ -3,11 +3,12 @@
 # ECI-Toolbox
 
 Wymagane moduły:
-Pillow==8.0.1
-PyQt5==5.15.1
-PyQt5-sip==12.8.1
-PyQt5-stubs==5.14.2.2
-pyqt5-tools==5.15.1.1.7.5
+
+- Pillow==8.0.1
+- PyQt5==5.15.1
+- PyQt5-sip==12.8.1
+- PyQt5-stubs==5.14.2.2
+- pyqt5-tools==5.15.1.1.7.5
 
 ## PL description below :)
 ## Słowem wstępu
