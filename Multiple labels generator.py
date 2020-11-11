@@ -84,9 +84,9 @@ class Ui_multiple_labels_window(object):
         self.beginning_label.setText(_translate("cps_generator_window", "Początek np. \"CRP\":"))
         self.amount_label.setText(_translate("cps_generator_window", "Ilość:"))
         self.comboBox.setPlaceholderText(_translate("cps_generator_window", "Wybierz projekt..."))
-        self.comboBox.setItemText(0, _translate("cps_generator_window", "Bobcat"))
-        self.comboBox.setItemText(1, _translate("cps_generator_window", "Weidemann"))
-        self.comboBox.setItemText(2, _translate("cps_generator_window", "Projekt3"))
+        self.comboBox.setItemText(0, _translate("cps_generator_window", "SampleProject"))
+        self.comboBox.setItemText(1, _translate("cps_generator_window", "AndAnotherSampleProject"))
+        self.comboBox.setItemText(2, _translate("cps_generator_window", "AnotherSampleProject"))
 
 
     def generate(self):
