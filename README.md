@@ -15,7 +15,6 @@ ECI-Toolbox to zbiór programów które napisałem aby ułatwić sobie i innym p
 
 .prn - format pliku obsługiwany przez drukarki do etykiet. Zapisane są w nim dane typu koordynaty, typ wydruku, szybkość itp.  
 Pliki .prn są specyficzne dla konkretnych drukarek. Te zawarte w folderze /templates są obsługiwane przez drukarkę TSC TC200.
-
 .nxf - format pliku używany przez testery firmy Dynalab Inc. W praktyce jest to xml.
 
 ### CPS Generator.py
@@ -27,8 +26,8 @@ Funkcje:
 - Umieszczanie wygenerowanych plików w folderze - po uzupełnieniu pola "Numer wiązki", w przeciwnym razie pliki zapisują się na pulpicie
 - Dobieranie odpowiednich wzorów na postawie ilości uzupełnionych linijek (1/2/3)
 - Bezpośrednie drukowanie bez zapisu pliku 
-
 #### Do działania programu wymagany jest plik limits.py!
+
 
 ### Employee code generator.py
 Generowanie etykiet z kodem pracownika oraz imieniem i nazwiskiem. Zasada działania podobna do CPS Generator.py, jednak bardziej okrojona z funkcji.
@@ -45,6 +44,7 @@ Zmniejszanie zdjęć o zakodowaną na stałe wartość 78%. Potrzeby firmy :)
 Funkcje:
 - Zmniejszanie wszystkich zdjęć w folderze wybranym przez użytkownika (filedialog) i umieszczanie ich na pulpicie.
 
+
 ### Multiple labels generator.py
 Generowanie etykiet według ustalonego przez użytkownika wzoru.
 Przykład: Uzupełnienie pola "Początek" jako "CRP", oraz "Ilość sztuk" jako 30 da nam rezultat CRP1, CRP2, CRP3 ... CRP29, CRP30
@@ -53,7 +53,10 @@ Funkcje:
 - Masowe generowanie etykiet według wybranego wzoru oraz danych wprowadzonych przez użykownika
 - Umieszczanie wszystkich etykiet w folderze na pulpicie
 
+
 ### .nxf with QR code generator
 Program napisany typowo dla koleżanki z biura obok - to tłumaczy turkosowe tło :) Generowanie pliku .nxf z danymi użytkownika.
 
+
+#### Licencja ikony programu:
 <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a>
