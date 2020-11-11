@@ -17,6 +17,11 @@ ECI-Toolbox to zbiór programów które napisałem aby ułatwić sobie i innym p
 .prn - format pliku obsługiwany przez drukarki do etykiet. Zapisane są w nim dane typu koordynaty, typ wydruku, szybkość itp.  
 Pliki .prn są specyficzne dla konkretnych drukarek. Te zawarte w folderze /templates są obsługiwane przez drukarkę TSC TC200.
 .nxf - format pliku używany przez testery firmy Dynalab Inc. W praktyce jest to xml.
+.nxb - jak wyżej, w praktyce jest to .jpg z zmienionym rozszerzeniem
+
+Do zrobienia zostało:
+- Refaktoryzacja kodu (Uczyłem się PyQt5 na tych programach więc jakość kodu może pozostawiać wiele do życzenia)
+- Dodanie programu konwertującego pliki .jpg na .nxb (Wymagane dla programu Nx Fixture Block Editor)
 
 ### CPS Generator.py
 Program służący do generowania plików .prn na podstawie wybranego przez użytkownika projektu (projekty korzystają z różnych rozmiarów etykiet) oraz danych przez niego wpisanych.
