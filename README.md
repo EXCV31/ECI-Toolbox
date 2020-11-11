@@ -14,10 +14,10 @@ Wymagane moduły:
 ## Słowem wstępu
 ECI-Toolbox to zbiór programów które napisałem aby ułatwić sobie i innym pracę w firmie gdzie jestem aktualnie zatrudniony. Główne ich założenie to przyspieszenie oraz ułatwienie powtarzalnych, nudnych zadań z którymi musiałem się mierzyć każdego dnia. Z początku plan był na stworzenie UI z przyciskami typu "wybierz co chcesz zrobić", jednak uznałem że skoro osoby które będą korzystać z tych programów nie będą używały wszystkich opcji to nie ma sensu.
 
-.prn - format pliku obsługiwany przez drukarki do etykiet. Zapisane są w nim dane typu koordynaty, typ wydruku, szybkość itp.  
+- .prn - format pliku obsługiwany przez drukarki do etykiet. Zapisane są w nim dane typu koordynaty, typ wydruku, szybkość itp.  
 Pliki .prn są specyficzne dla konkretnych drukarek. Te zawarte w folderze /templates są obsługiwane przez drukarkę TSC TC200.
-.nxf - format pliku używany przez testery firmy Dynalab Inc. W praktyce jest to xml.
-.nxb - jak wyżej, w praktyce jest to .jpg z zmienionym rozszerzeniem
+- .nxf - format pliku używany przez testery firmy Dynalab Inc. W praktyce jest to xml.
+- .nxb - jak wyżej, w praktyce jest to .jpg z zmienionym rozszerzeniem
 
 Do zrobienia zostało:
 - Refaktoryzacja kodu (Uczyłem się PyQt5 na tych programach więc jakość kodu może pozostawiać wiele do życzenia)
