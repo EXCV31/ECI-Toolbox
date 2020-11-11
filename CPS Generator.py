@@ -180,9 +180,9 @@ class Ui_cps_generator_window (object):
         cps_generator_window.setWindowTitle (_translate ("cps_generator_window", "ECI Toolbox v2.00"))
         self.generator_label.setText (_translate ("cps_generator_window", "Generator CPS"))
         self.comboBox.setPlaceholderText (_translate ("cps_generator_window", "Wybierz projekt..."))
-        self.comboBox.setItemText (0, _translate ("cps_generator_window", "Bobcat"))
-        self.comboBox.setItemText (1, _translate ("cps_generator_window", "Craigavon"))
-        self.comboBox.setItemText (2, _translate ("cps_generator_window", "Weidemann"))
+        self.comboBox.setItemText (0, _translate ("cps_generator_window", "SampleProject"))
+        self.comboBox.setItemText (1, _translate ("cps_generator_window", "AnotherSampleProject"))
+        self.comboBox.setItemText (2, _translate ("cps_generator_window", "AndAnotherSampleProject"))
         self.width_label.setText (_translate ("cps_generator_window", "Szerokość: 30mm"))
         self.height_label.setText (_translate ("cps_generator_window", "Wysokość: 10mm"))
         self.gap_label.setText (_translate ("cps_generator_window", "Przerwa: 3mm"))
@@ -199,27 +199,27 @@ class Ui_cps_generator_window (object):
         os.system ("python main.py")
 
     def combobox_changed(self):
-        if self.comboBox.currentText () == "Bobcat":
-            limit1 = bobcat_limit1
-            limit2 = bobcat_limit2
-            limit3 = bobcat_limit3
-            height = bobcat_label_height
-            width = bobcat_label_width
-            gap = bobcat_label_gap
-        if self.comboBox.currentText () == "Craigavon":
-            limit1 = Craigavon_limit1
-            limit2 = Craigavon_limit2
-            limit3 = Craigavon_limit3
-            height = Craigavon_label_height
-            width = Craigavon_label_width
-            gap = Craigavon_label_gap
-        if self.comboBox.currentText () == "Weidemann":
-            limit1 = Weidemann_limit1
-            limit2 = Weidemann_limit2
-            limit3 = Weidemann_limit3
-            height = Weidemann_label_height
-            width = Weidemann_label_width
-            gap = Weidemann_label_gap
+        if self.comboBox.currentText () == "SampleProject":
+            limit1 = SampleProject_limit1
+            limit2 = SampleProject_limit2
+            limit3 = SampleProject_limit3
+            height = SampleProject_label_height
+            width = SampleProject_label_width
+            gap = SampleProject_label_gap
+        if self.comboBox.currentText () == "AnotherSampleProject":
+            limit1 = AnotherSampleProject_limit1
+            limit2 = AnotherSampleProject_limit2
+            limit3 = AnotherSampleProject_limit3
+            height = AnotherSampleProject_label_height
+            width = AnotherSampleProject_label_width
+            gap = AnotherSampleProject_label_gap
+        if self.comboBox.currentText () == "AndAnotherSampleProject":
+            limit1 = AndAnotherSampleProject_limit1
+            limit2 = AndAnotherSampleProject_limit2
+            limit3 = AndAnotherSampleProject_limit3
+            height = AndAnotherSampleProject_label_height
+            width = AndAnotherSampleProject_label_width
+            gap = AndAnotherSampleProject_label_gap
         self.limits_label.setText (f"Limity: {limit1} / {limit2} / {limit3}")
         self.height_label.setText (f"Wysokość: {height}")
         self.width_label.setText (f"Szerokość: {width}")
