@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<!--Created by the NX Editor Version:  1.0.19.240-->
+<Editor version="2" audit="1" CRC="0xC8D32F7E">
+<History>
+</History>
+<Variables>
+	<Var name="$CAU" val="Czego tu szukasz? :)"/>
+	<Counter name="$NPN" val="0"/>
+	<Counter name="$NCO" val="-1"/>
+	<Counter name="$NPT" val="-1"/>
+	<Counter name="$NCN" val="0"/>
+</Variables>
+<Harness>
+	<Fixtures>
+	</Fixtures>
+	<Components>
+		<![CDATA[
+		]]>
+	</Components>
+	<Splices>
+		<![CDATA[
+		]]>
+	</Splices>
+	<Colors>
+		<![CDATA[
+			1,Wire Color
+		]]>
+	</Colors>
+	<PartNumbers>
+	</PartNumbers>
+	<Phases>
+		<Phase name="Main">
+		</Phase>
+	</Phases>
+</Harness>
+<Workflow>
+	<Start cell="1">
+		<Flow next="2">
+		</Flow>
+	</Start>
+	<UI cell="2">
+		<Flow next="3" opts="su" voice="0" sound="9" wait="10" event="0">
+			<![CDATA[Zeskanuj tajemnicza
+etykiete:]]>
+		</Flow></UI>
+	<Read cell="3" port="2" var="$TS1" ticks="-1" opts="">
+		<Flow next="4">
+		</Flow>
+	</Read>
+	<Decide cell="4" oper="0" var="$TS1" expr="0069">
+		<Branch next="2" voice="0" sound="6" wait="20" event="0" opts="Fsdt">
+			<![CDATA[Zly kod :(]]>
+		</Branch>
+		<Flow next="5">
+		</Flow>
+	</Decide>
+	<UI cell="5">
+		<Flow next="6" opts="sut" voice="0" sound="12" wait="10" event="0">
+			<![CDATA[:)]]>
+		</Flow></UI>
+	<Label cell="6" port="1" qty="1" ticks="-1">
+		<LabelData name="Y:\EXCHANGE\TECHNICAL\PRIVATE\Technicy\TECHNICY\programy do centralek\Programy\programy Dynalab-aktualne\Stationary\Kramer\Etykiety\ETYKIETA_KRAMER aktualna z dzia%142aj%105cym QR.prn" created="43635.388773" modified="44013.448611">
+	</LabelData>
+			<![CDATA[|EFBBBF10|CT~~CD,~CC^~CT~|0D0A|^XA~TA000~JSN^LT0^MNW^MTT^PON^PMN^LH0,0^JMA^PR3,3~SD16^JUS^LRN^CI0^XZ|0D0A|^XA|0D0A|^MMT|0D0A|^PW709|0D0A|^LL0402|0D0A|^LS0|0D0A|^FO32,288^GFA,04608,04608,00036,:Z64:|0A|eJztlL+L40YUx2ekdQRKRGKIIzgQe0WKIFKkCAhCQhTwZttbbs02J2xIl0rLaT1JEawzBA53+Q8GF0FMlT9BRUzSHGfDLWxAs5vu4IqQFMc2F5Q3ek+Lr9hzH/SkGWvGzx9/5/0QY5111lln/2Ob7XZxldyNqeudPn+9eJFvLWMzBeVrLs6rg/Gf+GhJuBT8eR4WripCFrZycmYV5J46qS9YJL4SmSMywQT5fDkYDF4Rp7BkCBA1V8pw8pbzMQx67lW9daJLrVdae7pKyoR8/h2NRmPiKEsqBTdwFsCRLUeaL/FgjnBSIU6nIEwwOxUp6bHPj476JyVx5lJZBZxMhrlVhAVxECFRj15tLvkfmnllUPIqqUiPcw56Rn8TZykL4OSudOegRxHHZZ/BdZf0iNPMzkTqTPxDiI8gPfujui/63xFHyYKBjpaj0OcdpuD6CPWc603FK0+DnhXEJ9Ho88WoPtbPHiBnqYweSy2QExIn5CpXOXKch0ZPygToiSE+Pun54ej6p+ujDyjvysSHhcAx8XGJM7FU/m3uop61Xut3L1jwtNwv7WrsXaHP2Un9W7I6IU5o8sUUcSzigMJlKJHjpBHkC26Kj016XvozEZ3uEwcSpeCG+Ji8M+JIV/28kK0ebx3oMjHxeQLxYRSfl+O61tVBjhwgKdbEebFVz/IO1FOB2XdSO+UZE5NGD1RPhD4bv75+euazNxlUuFLFW/kbXPj57Hn9nPTczlmqpWr1OKdQNHHkCDtj9sSJkbOZ3Z99Mx1gfArTF9AOC5UXTbSIA40yV6iHV72N1sEagrOpTLRK9HlWr+qVPsBF01+u4TTN0XKkegTXHDnC6IGsHTZJS/0Uff6pWZ1f8xsOjKLhQGTDouWYgl7gYvzjml3xy+D33mVyFVTBBW7X9XAWj5/gIpxL8wtoUgXNdcPBSsa8w5sHdHARMT6N4mgqMtz+/j0zv48L17w0mFK5YRkSbn/YzHdwkUA9a5hLVgVQRrrC7c+HQ8b2PqVzNZzQcFx4avsUy+guLqDfocdFFPOpPxFiSvXs9818TJxmgJaGExbEebuZH2OCzf9rrgNoLm9zGVRJE37m/TqMWbze4kBsHkMFLM17DH1c88FRD58aTXYWOX7mPMz8NIqb/d49mOx461yYL+CYt2Kzbf0C0x4+M62hfjxTP2u+uoCHEvkPhnvMYxQI1daPtOZyq4BgfMLafEF8IFOHIuaH8FZ0qIDuwzgjH8twIFNzOOBCWnnLAV2c5Nxqgyz++t4OHyu8kXOr8dGsv8uHFbvUGEGj491OnXXWWWedvWb/AUKKvws=:9970|0A|^FT433,306^BQN,2,5|0D0A|^FH\^FDMA,1010#DP09,2010#$harness_id,3010#$revision,5010#,6010#$harness_counter,7010#$day/$month/$year,8010#$order^FS|0D0A|^FT384,67^A0I,42,60^FH\^FD$order^FS|0D0A|^FT383,126^A0I,42,60^FH\^FD$year-$month-$day^FS|0D0A|^FT380,186^A0I,42,60^FH\^FD$revision^FS|0D0A|^FT379,246^A0I,42,60^FH\^FD$harness_id^FS|0D0A|^PQ1,0,1,Y^XZ|0D0A|]]>
+		<Flow next="7">
+		</Flow>
+	</Label>
+	<Abort cell="7" expr=""/>
+</Workflow>
+</Editor>
